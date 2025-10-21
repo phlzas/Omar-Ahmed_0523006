@@ -1,0 +1,6 @@
+@Omar_Ahmed_0523006_HostAddress = http://localhost:5216
+
+GET {{Omar_Ahmed_0523006_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
