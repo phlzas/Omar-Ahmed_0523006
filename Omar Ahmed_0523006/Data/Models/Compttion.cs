@@ -1,7 +1,7 @@
 ﻿namespace Omar_Ahmed_0523006.Data.Models
 {
     public class Compttion
-    {
+    { // helleo oooo
         public int Id { get; set; }
         public string Titel { get; set; }
         public string Locatioon { get; set; }
