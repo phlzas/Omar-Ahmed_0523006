@@ -44,8 +44,8 @@ namespace Omar_Ahmed_0523006.Controllers
             var p =   s.Result.SelectMany(o => o.teamCompttions).Select(o => o.TeamId).ToList();
             var ss  =  new List<Team>();
             foreach(var team in p) {
-                var sa = _teamRepos.GetAllWithSpicfecCoach(team);
-                ss.Add(new Team { Id = sa.Id, City = sa.Result. });
+                var sa = await _teamRepos.GetAllWithSpicfcComption(team);
+                if (sa != null) ss.Add(sa);
             }
             var d = s.Result.Select(o => new
             {
